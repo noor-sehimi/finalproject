@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat+Alternates:wght@100;200;300;400;500&family=Poppins&family=Roboto:wght@100;300&family=Rubik:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat+Alternates:wght@100;200;300;400;500&family=Poppins&family=Roboto:wght@100;300&family=Rubik:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    box-sizing:border-box
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    color: black;
+    cursor: pointer;
+    max-height: 792px;
+    
+}
+.osaka {
+    width: 50%;
+    height: 800px;
+}
+.signinbox {
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    background-color: white;
+    padding: 50px 50px;
+    border-radius: 15px;
+    margin-top: 100px;
+    
+    background-color: rgb(248, 226, 222);;
+    
+}
+
+.signinbox img {
+    width: 120px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+h1, h5 {
+    text-align: center;
+    margin: 0px;
+    color: black;
+}
+.inputs {
+    
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(255, 250, 250);
+    padding: 10px 10px;
+}
+label {
+    color: black;
+}
+.google, .fb {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    height: 35px;
+    color: black;
+    font-size: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);;
+    transition: 0.5s;
+
+
+}
+.google img {
+    width: 20px;
+}
+.fb img {
+    width: 20px;
+}
+.google:hover {
+    background-color: black;
+    color: white;
+}
+.fb:hover {
+    background-color: black;
+    color: white;
+}

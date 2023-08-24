@@ -1,0 +1,38 @@
+[
+    {
+        "image": "../assets/tayaki.jpg",
+        "name": "chili"
+    },
+    {
+        "image": "../assets/soda.jpg",
+        "name": "grapes"
+    },
+    {
+        "image": "../assets/ramen.jpg",
+        "name": "lemon"
+    },
+    {
+        "image": "../assets/candy.jpg",
+        "name": "orange"
+    },
+    {
+        "image": "../assets/ramunee.jpg",
+        "name": "pineapple"
+    },
+    {
+        "image": "../assets/corndog.jpg",
+        "name": "strawberry"
+    },
+    {
+        "image": "../assets/onigiri.jpg",
+        "name": "tomato"
+    },
+    {
+        "image": "../assets/pocky.jpg",
+        "name": "watermelon"
+    },
+    {
+        "image": "../assets/icecream.jpg",
+        "name": "cherries"
+    }
+]
